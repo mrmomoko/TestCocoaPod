@@ -8,8 +8,18 @@
 
 import Foundation
 
-open class TestClass {
+public class TestClass {
+    
+    public init() {
+        
+    }
+    
     public func getName() -> String {
         return "momoko"
+    }
+    
+    func secret() -> String {
+        let secret = KeepSecret()
+        return secret.cantSee()
     }
 }
