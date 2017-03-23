@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C796FDB1E843C8A00F1C4EE /* KeepSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C796FDA1E843C8A00F1C4EE /* KeepSecret.swift */; };
 		4C84546E1E832275003A2200 /* TestCocoaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8454641E832275003A2200 /* TestCocoaPod.framework */; };
 		4C8454731E832275003A2200 /* TestCocoaPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8454721E832275003A2200 /* TestCocoaPodTests.swift */; };
 		4C8454751E832275003A2200 /* TestCocoaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8454671E832275003A2200 /* TestCocoaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C796FDA1E843C8A00F1C4EE /* KeepSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepSecret.swift; sourceTree = "<group>"; };
 		4C8454641E832275003A2200 /* TestCocoaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCocoaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8454671E832275003A2200 /* TestCocoaPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCocoaPod.h; sourceTree = "<group>"; };
 		4C8454681E832275003A2200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				4C8454671E832275003A2200 /* TestCocoaPod.h */,
 				4C84547E1E83228B003A2200 /* TestClass.swift */,
+				4C796FDA1E843C8A00F1C4EE /* KeepSecret.swift */,
 				4C8454681E832275003A2200 /* Info.plist */,
 			);
 			path = TestCocoaPod;
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C796FDB1E843C8A00F1C4EE /* KeepSecret.swift in Sources */,
 				4C84547F1E83228B003A2200 /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +414,7 @@
 				4C84547A1E832275003A2200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C84547B1E832275003A2200 /* Build configuration list for PBXNativeTarget "TestCocoaPodTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				4C84547D1E832275003A2200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'TestCocoaPod'
-  s.version          = '1.0'
+  s.name             = 'TestCocoaPod_123'
+  s.version          = '1.0.2'
   s.summary          = 'Test a TestCocoaPod'
  
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ Enable Developers to test creation of a cocoa pod
   s.source           = { :git => 'https://github.com/mrmomoko/TestCocoaPod.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'TestCocoaPod/*'
+  s.source_files = 'TestCocoaPod/{TestSwift.swift,TestCocoaPod.h}'
  
 end
